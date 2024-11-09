@@ -1,0 +1,357 @@
+      /* Custom styles for the nav bar */
+
+    .navbar-custom {
+        background-color: #8e9aaf;
+        border-bottom: 2px solid #5e6f85; 
+      }
+  
+      .navbar-custom .navbar-nav .nav-link {
+        color: #ffffff;
+      }
+  
+      .navbar-custom .navbar-nav .nav-item.active .nav-link {
+        color: #f0a500;
+      }
+  
+     
+      .navbar-custom .navbar-brand img {
+        max-height: 50px;
+      }
+      /* Custom styles for the hero section */
+    .hero-section {
+        position: relative;
+        height: 100vh;
+      }
+      
+      .hero-section .carousel-item {
+        height: 100vh;
+        min-height: 300px;
+        background-size: cover;
+        background-position: center;
+      }
+  
+      .hero-section .carousel-caption {
+        bottom: 50%;
+        transform: translateY(50%);
+        text-align: center;
+      }
+  
+      .hero-section .carousel-caption h1 {
+        font-size: 3.5rem;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+  
+      .hero-section .carousel-caption p {
+        font-size: 1.5rem;
+        color: #fff;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+  
+      .hero-section .carousel-caption a {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        background-color: #f0a500;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+  
+      .hero-section .carousel-caption a:hover {
+        background-color: #d48800;
+        color: #fff;
+      }
+      /* Custom styles for About Us section */
+    .about-us {
+        padding: 60px 0;
+        background-color: #f9f9f9;
+      }
+  
+      .about-us .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #333;
+      }
+  
+      .about-us .section-description {
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        text-align: justify;
+        color: #666;
+      }
+  
+      .about-us .card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+  
+      .about-us .card:hover {
+        transform: translateY(-10px);
+      }
+  
+      .about-us .card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+  
+      .about-us .card-body {
+        text-align: center;
+      }
+  
+      .about-us .card-title {
+        font-size: 1.5rem;
+        color: #333;
+      }
+  
+      .about-us .card-text {
+        font-size: 1rem;
+        color: #666;
+      }
+       /* Custom styles for Menu section */
+    .menu-section {
+        padding: 60px 0;
+        background-color: #f0f0f0;
+      }
+  
+      .menu-section .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #333;
+      }
+  
+      .menu-section .section-description {
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #666;
+      }
+  
+      .menu-section .card {
+        margin-bottom: 50px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+  
+      .menu-section .card:hover {
+        transform: translateY(-10px);
+      }
+  
+      .menu-section .card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 200px;
+        object-fit: cover;
+      }
+  
+      .menu-section .card-body {
+        text-align: center;
+        height: 300px;
+      }
+  
+      .menu-section .card-title {
+        font-size: 1.5rem;
+        color: #333;
+      }
+  
+      .menu-section .card-text {
+        font-size: 1rem;
+        color: #666;
+      }
+      
+      .menu-section .card-price {
+        font-size: 1.2rem;
+        color: #f0a500;
+        margin-top: 10px;
+      }
+      /* Custom styles for Product section */
+    .product-section {
+        padding: 60px 0;
+        background-color: #fafafa;
+      }
+  
+      .product-section .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #333;
+      }
+  
+      .product-section .section-description {
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #666;
+      }
+  
+      .product-section .card {
+        margin-bottom: 50px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+  
+      .product-section .card:hover {
+        transform: translateY(-10px);
+      }
+  
+      .product-section .card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 250px;
+        object-fit: cover;
+      }
+  
+      .product-section .card-body {
+        text-align: center;
+        height: 250px;
+      }
+  
+      .product-section .card-title {
+        font-size: 1.5rem;
+        color: #333;
+      }
+  
+      .product-section .card-text {
+        font-size: 1rem;
+        color: #666;
+      }
+      
+      .product-section .card-price {
+        font-size: 1.2rem;
+        color: #f0a500;
+        margin-top: 10px;
+      }
+      /* Custom styles for Contact Us section */
+    .contact-section {
+        padding: 60px 0;
+        background-color: #e9ecef;
+      }
+  
+      .contact-section .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #333;
+      }
+  
+      .contact-section .section-description {
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #666;
+      }
+  
+      .contact-section .form-control {
+        border-radius: 5px;
+      }
+  
+      .contact-section .btn-custom {
+        background-color: #f0a500;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+      }
+  
+      .contact-section .btn-custom:hover {
+        background-color: #e09e00;
+      }
+  
+      .contact-section .contact-info {
+        margin-top: 30px;
+      }
+  
+      .contact-section .contact-info .info-item {
+        margin-bottom: 20px;
+      }
+  
+      .contact-section .contact-info .info-item i {
+        font-size: 1.5rem;
+        color: #f0a500;
+        margin-right: 10px;
+      }
+  
+      .contact-section .contact-info .info-item p {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1rem;
+        color: #666;
+      }
+     /* Custom styles for Blog section */
+     .blog-section {
+        padding: 60px 0;
+        background-color: #f8f9fa;
+      }
+  
+      .blog-section .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #333;
+      }
+  
+      .blog-section .section-description {
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #666;
+      }
+  
+      .blog-section .card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+  
+      .blog-section .card:hover {
+        transform: translateY(-10px);
+      }
+  
+      .blog-section .card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 250px;
+        object-fit: cover;
+      }
+  
+      .blog-section .card-body {
+        text-align: center;
+      }
+  
+      .blog-section .card-title {
+        font-size: 1.5rem;
+        color: #333;
+      }
+  
+      .blog-section .card-text {
+        font-size: 1rem;
+        color: #666;
+      }
+      
+      .blog-section .card-date {
+        font-size: 0.9rem;
+        color: #999;
+        margin-top: 10px;
+      }
+      /* Custom styles for simple Footer section */
+    .footer {
+      background-color: #343a40;
+      color: #f8f9fa;
+      padding: 20px 0;
+    }
+
+    
+    .footer .copyright {
+      text-align: center;
+      margin-top: 10px;
+      color: #6c757d;
+    }
